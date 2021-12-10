@@ -1,0 +1,184 @@
+a {
+    float: right;
+}
+
+body{
+  background-color: #1D323B;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.loginLabelStyle {
+    color: whitesmoke
+}
+
+.btn {
+    background-color: #C0EEFA;
+    color: black;
+}
+
+.qPopup {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.qPopupBackground {
+    background-color: #16697A;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.inputContainer {
+    border: 3px solid #16697A;
+    width: 80%;
+    height: 50%;
+    background-color: #C0EEFA;
+    border-radius: 20px;
+    padding: 10px 30px 30px 30px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
+table {
+  align-self: center;
+  border: 1px solid #962960;
+  outline-style: solid;
+  margin: auto;
+}
+
+th {
+  border: 1px solid white;
+  padding: 10px;
+  background-color: #2E86AB;
+  font-size: 25px;
+  color: #F7F2F5
+}
+tr {
+  border: 1px solid white;
+  padding: 10px;
+  font-size: 25px;
+  background-color: #C0EEFA;
+}
+tr:nth-child(even) {
+  background-color: #F7F2F5;
+}
+
+td{
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.nav-tabs > li > a {
+  font-size: 16px;
+  background-color: #F7F2F5;
+  width: 175px
+}
+.active a {
+  background-color: #C0EEFA !important;
+
+}
+
+.back-button{
+  background-color: #C0EEFA;
+  color: #1D323B
+}
+
+a {
+    float: right;
+    text-decoration: none;
+}
+
+
+.calendarContainer {
+    border: 3px solid #16697A;
+    background-color: #C0EEFA;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 30px 30px 30px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+h3 {
+    color: #16697A;
+}
+
+#newQButton {
+    float: right;
+}
+
+.qPopup {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+}
+
+.qPopupBackground {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.inputContainer {
+    border: 3px solid #16697A;
+    width: 80%;
+    height: 50%;
+    background-color: #C0EEFA;
+    border-radius: 20px;
+    padding: 10px 30px 30px 30px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#profPrompt {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#submit {
+    float: center;
+}
+
+.question {
+    /* color: black;
+    background-color: #C0EEFA;
+    border: 5px solid #16697A; */
+    border: 3px solid #16697A;
+    background-color: #d6f1f8;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); */
+
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    position: relative;
+    display: flex;
+    justify-content: left;
+}
+
+.columns{
+    float: center;
+    position: relative; 
+    margin-right: 20px; 
+}
+  
